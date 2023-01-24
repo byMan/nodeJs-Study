@@ -5,9 +5,7 @@ const express = require("express");
 const app = express();
 
 //라우팅
-const home = require("./routes/home");  //index.js 파일을 읽어온다.
-
-
+const home = require("./src/routes/home");  //index.js 파일을 읽어온다.
 
 //앱 세팅
 app.set("views", "./views");
